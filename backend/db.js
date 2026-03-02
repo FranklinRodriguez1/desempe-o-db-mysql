@@ -1,10 +1,10 @@
 const mysql = require('mysql2');
 
 const connection = mysql.createConnection({
-  host: 'localhost',
+  host: 'localhost:3000',
   user: 'root',
-  password: '',
-  database: 'logiTech',
+  password: 'Qwe.123*',
+  database: 'LogiTechSolutions',
 });
 
 connection.connect((err) => {
